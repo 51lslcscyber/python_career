@@ -25,6 +25,7 @@ for i in range(lines):
 with open('./file1.txt','w',encoding='utf-8') as file1:
      file1.write(per_write)
 
+
 #读文件
 with open('./file1.txt','r',encoding='utf-8') as file2:
     read_str = file2.read()

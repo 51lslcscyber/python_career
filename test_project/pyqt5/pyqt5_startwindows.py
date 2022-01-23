@@ -15,7 +15,7 @@ class Ui_Form(object):
         self.label_100 = QtWidgets.QLabel(Form)  #Ui界面里创建一个可视化界面label_100
         self.label_100.setGeometry(QtCore.QRect(410, 0, 360, 41))  #label_100里面设置框的大小为左右410，上下0,宽360,高41
         self.Timer=QTimer()     #自定义QTimer
-        self.Timer.start(500)   #每0.5秒运行一次
+        self.Timer.start(500)   #每0.5秒运行一8次
         self.Timer.timeout.connect(self.updateTime)   #连接updateTime
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
