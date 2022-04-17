@@ -54,9 +54,8 @@ class TestCase():
     def test_three(self):
         print("three")
 
-
-def test_four(self):
-    print("four")
+    def test_four(self):
+        print("four")
 
 
 if __name__ == '__main__':
