@@ -13,9 +13,9 @@ if __name__ == "__main__":
 """
 import base64
 
-# f = open("G:\捕获.PNG", 'rb')  # 二进制方式打开图文件
-# f = open("G:\p1.gif", 'rb')  # 二进制方式打开图文件
-f = open("G:\image.jpg", 'rb')  # 二进制方式打开图文件
+# f = open("G:\\捕获.PNG", 'rb')  # 二进制方式打开图文件
+# f = open("G:\\p1.gif", 'rb')  # 二进制方式打开图文件
+f = open("G:\\image.jpg", 'rb')  # 二进制方式打开图文件
 ls_f = base64.b64encode(f.read())  # 读取文件内容，转换为base64编码
 f.close()
 print(ls_f)
