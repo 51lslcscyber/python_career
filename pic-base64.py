@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-# @Time:2022/4/16
-# @version: 1.0.2
+# @Time:2022/4/19
+# @version: 1.0.3
 # Created by: Python3.9.6
 # @author:鹄思鹄想bit森
 # WARNING: run again.
@@ -19,9 +19,9 @@ f = open("G:\\image.jpg", 'rb')  # 二进制方式打开图文件
 ls_f = base64.b64encode(f.read())  # 读取文件内容，转换为base64编码
 f.close()
 print(ls_f)
-'''
-base64字符串转化为图片
-'''
+"""
+2.base64字符串转化为图片
+"""
 # import base64
 # bs=''
 # imgdata=base64.b64decode(bs)
