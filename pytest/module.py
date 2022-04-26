@@ -32,24 +32,31 @@ def test_two():
     print("two")
 
 
-class TestCase():
-    def setup_class(self):
-        print("====整个测试类开始前只执行一次setup_class====")
+def setup_class():
+    print("====整个测试类开始前只执行一次setup_class====")
 
-    def teardown_class(self):
-        print("====整个测试类结束后只执行一次teardown_class====")
 
-    def setup_method(self):
-        print("==类里面每个用例执行前都会执行setup_method==")
+def teardown_class():
+    print("====整个测试类结束后只执行一次teardown_class====")
 
-    def teardown_method(self):
-        print("==类里面每个用例结束后都会执行teardown_method==")
 
-    def setup(self):
-        print("=类里面每个用例执行前都会执行setup=")
+def teardown_method():
+    print("==类里面每个用例结束后都会执行teardown_method==")
 
-    def teardown(self):
-        print("=类里面每个用例结束后都会执行teardown=")
+
+def setup_method():
+    print("==类里面每个用例执行前都会执行setup_method==")
+
+
+def teardown():
+    print("=类里面每个用例结束后都会执行teardown=")
+
+
+def setup():
+    print("=类里面每个用例执行前都会执行setup=")
+
+
+class TestCase:
 
     def test_three(self):
         print("three")
