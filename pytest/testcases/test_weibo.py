@@ -11,4 +11,4 @@ import pytest
 @pytest.mark.parametrize("open")
 class TestWeibo:
     def test_case1_01(self, open_weibo):
-        print("查看微博热搜")
+        print("查看最近微博热搜")
