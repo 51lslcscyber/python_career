@@ -10,7 +10,8 @@ import pytest
 
 @pytest.fixture(scope="function", params=None, autouse=False,
                 ids=None, name=None)
-def test():
+def test(login):
+    name = login
     print("fixture初始化的参数列表")
 
 
