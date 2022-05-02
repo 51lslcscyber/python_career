@@ -9,15 +9,15 @@
 import datetime
 
 
-def dayofyear():
-    year = input("请输入年份：")
-    month = input("请输入月份：")
-    day = input("请输入天：")
+def day_of_year():
+    year = int(input("请输入年份："))
+    month = int(input("请输入月份："))
+    day = int(input("请输入天："))
     date1 = datetime.date(year=int(year), month=int(month), day=int(day))
     date2 = datetime.date(year=int(year), month=1, day=1)
-    return (date1 - date2 + 1).days
+    return (date1 - date2).days+1
 
 
 if __name__ == "__main__":
-    print(dayofyear())
+    print(day_of_year())
     pass
