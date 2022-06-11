@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # @Time:2022/0/
-# @version: 1.01
+# @version: 1.0.1
 # Created by: Python3.9.6
 # @author:鹄思鹄想bit森
 # WARNING: run again.
