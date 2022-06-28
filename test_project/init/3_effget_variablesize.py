@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # @Time:2022/4/19
-# @version: 1.0.1
+# @version: 1.0.2
 # Created by: Python3.9.6
 # @author:鹄思鹄想bit森
 # WARNING: run again.
@@ -11,3 +11,5 @@ import sys
 
 variable = 3
 print(sys.getsizeof(variable))
+if __name__ == "__main__":
+    pass
